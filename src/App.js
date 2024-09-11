@@ -3,6 +3,8 @@ import Route from './components/Route';
 import AccordionPage from './pages/AcordionPage';
 import DropdownPage from './pages/DropdownPage';
 import ButtonsPage from './pages/ButtonPage';
+import ModalPage from './pages/ModalPage';
+import TablePage from './pages/TablePage';
 
 function App() {
   return (
@@ -17,6 +19,12 @@ function App() {
         </Route>
         <Route path="/buttons">
           <ButtonsPage />
+        </Route>
+        <Route path="/modal">
+          <ModalPage />
+        </Route>
+        <Route path="/table">
+          <TablePage />
         </Route>
       </div>
     </div>
